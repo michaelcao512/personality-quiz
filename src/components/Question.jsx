@@ -12,12 +12,10 @@ export default function Question({ question, setCurrentQuestionId, setResults })
         setCurrentQuestionId(option.nextQuestion);
     };
 
-
-    const [currentQuestion] = question.questionNum
+    const [currentQuestion, totalQuestions] = question.questionNum
         .split("/")
-        .map((num) => parseInt(num));
 
-    const progress = (currentQuestion / 14) * 100;
+    const progress = (currentQuestion / totalQuestions) * 100;
 
     return (
         <Box sx={{ display: "flex", flexDirection: "column", gap: 2, padding: 2 }}>
