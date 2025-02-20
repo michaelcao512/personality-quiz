@@ -41,7 +41,7 @@ export default function Quiz() {
             <Box
                 sx={{
                     width: "375px",
-                    height: "700px",
+                    height: "800px",
                     border: "1px solid #ccc",
                     borderRadius: "16px",
                     overflow: "hidden",

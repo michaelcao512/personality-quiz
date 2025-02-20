@@ -2,106 +2,248 @@
     "questions": [
         {
             "id": 1,
-            "question": "The Awakening\nYou awaken in your cozy compartment, surrounded by the scent of fresh flowers and adventure. Do you:",
+            "question": "You awaken in your cozy compartment, surrounded by the scent of fresh flowers and adventure.",
             "options": [
-                { "id": 1, "text": "Gaze out the window, not questioning why you are here.", "nScore": 1, "nextQuestion": 2 },
-                { "id": 2, "text": "Excitedly call out to your fellow passengers, eager to share your dreams.", "nScore": -1, "nextQuestion": 2 }
+                {
+                    "id": 1,
+                    "text": "Gaze out the window",
+                    "nScore": 1,
+                    "nextQuestion": 2
+                },
+                {
+                    "id": 2,
+                    "text": "Why am I here?",
+                    "nScore": -1,
+                    "nextQuestion": 2
+                }
             ]
         },
         {
             "id": 2,
-            "question": "The Uncharted Map\nYou peek outside your compartment and see the only other fellow traveler in the train walking past your compartment. Do you:",
+            "question": "You peek outside your compartment and a fellow traveler in the train is walking past your compartment. ",
             "options": [
-                { "id": 1, "text": "Try to stop them and ask where the train is going.", "eScore": 1, "nextQuestion": 3 },
-                { "id": 2, "text": "Oh, they look busy, I won't bother them.", "eScore": -1, "nextQuestion": 3 }
+                {
+                    "id": 1,
+                    "text": "Excuse me? Where the train is headed",
+                    "eScore": 1,
+                    "nextQuestion": 3
+                },
+                {
+                    "id": 2,
+                    "text": "Oh, they look busy, I won't bother them",
+                    "eScore": -1,
+                    "nextQuestion": 3
+                }
             ]
         },
         {
             "id": 3,
-            "question": "The Enchanted Locket\nYou walk to a different cart and a mysterious traveler tries to sell you a locket that supposedly holds magical properties that he spent years crafting. Do you:",
+            "question": "You walk to a different train cart and a mysterious traveler tries to sell you a locket that supposedly holds magical properties that he spent years crafting.",
             "options": [
-                { "id": 1, "text": "Try to refuse it and end up giving him money.", "tScore": -1, "nextQuestion": 4 },
-                { "id": 2, "text": "Examine it critically, questioning both the locket and his authenticity.", "tScore": 1, "nextQuestion": 4 }
+                {
+                    "id": 1,
+                    "text": "I'll buy it",
+                    "tScore": -1,
+                    "nextQuestion": 4
+                },
+                {
+                    "id": 2,
+                    "text": "This could be a scam",
+                    "tScore": 1,
+                    "nextQuestion": 4
+                }
             ]
         },
         {
             "id": 4,
-            "question": "The Dining Car Decision\nIn the dining car, two meals are offered. Do you:",
+            "question": "You make it to the dining car, two meals are offered. Do you:",
             "options": [
-                { "id": 1, "text": "Choose the dish that looks like you have never seen before but smells delicious.", "pScore": 1, "nextQuestion": 5 },
-                { "id": 2, "text": "Select the dish that looks like something familiar but looks cold.", "pScore": -1, "nextQuestion": 5 }
+                {
+                    "id": 1,
+                    "text": "Choose the dish that looks a little questionable, but everyone else is eating",
+                    "pScore": 1,
+                    "nextQuestion": 5
+                },
+                {
+                    "id": 2,
+                    "text": "Select the dish that looks familiar, but no one else is eating",
+                    "pScore": -1,
+                    "nextQuestion": 5
+                }
             ]
         },
         {
             "id": 5,
-            "question": "The Garden of Whispers\nThe train makes a sudden stop at a garden filled with exotic flowers, and everyone on the train is suddenly gone. Do you:",
+            "question": "The train screeches to a stop at a field filled with flowers that are whispering, and everyone on the train suddenly disappears.",
             "options": [
-                { "id": 1, "text": "Listen to the whispers, intrigued by their hidden meanings.", "nScore": 1, "nextQuestion": 6 },
-                { "id": 2, "text": "Look for the passengers you just saw and where they went.", "nScore": -1, "nextQuestion": 6 }
+                {
+                    "id": 1,
+                    "text": "What are the whispers saying??",
+                    "nScore": 1,
+                    "nextQuestion": 6
+                },
+                {
+                    "id": 2,
+                    "text": "Where did the passengers go?",
+                    "nScore": -1,
+                    "nextQuestion": 6
+                }
             ]
         },
         {
             "id": 6,
-            "question": "The Fork in the Tracks\nYou walk for what feels like hours and suddenly there is a fork in the pathway made of two different things. Do you choose:",
+            "question": "You stumble upon a pathway and you walk for what feels like hours. The sun is starting to set.",
             "options": [
-                { "id": 1, "text": "The stone pathway.", "nScore": 1, "nextQuestion": 7 },
-                { "id": 2, "text": "Decide on the clearly marked path, valuing the safest option.", "nScore": -1, "nextQuestion": 7 }
+                {
+                    "id": 1,
+                    "text": "Continue",
+                    "nScore": 0,
+                    "nextQuestion": 7
+                }
             ]
         },
         {
             "id": 7,
-            "question": "The Heartfelt Encounter\nA stranger shares a heartbreaking story about losing their village to the dragon’s fury. Do you:",
+            "question": "Suddenly there is a fork in the pathway made of two different things. Do you:",
             "options": [
-                { "id": 1, "text": "Feel a strong urge to comfort them and offer assistance.", "tScore": -1, "nextQuestion": 8 },
-                { "id": 2, "text": "Ask practical questions to understand the situation better.", "tScore": 1, "nextQuestion": 8 }
+                {
+                    "id": 1,
+                    "text": "Choose the stone pathway.",
+                    "nScore": 1,
+                    "nextQuestion": 8
+                },
+                {
+                    "id": 2,
+                    "text": "Contiue along the dirt path.",
+                    "nScore": -1,
+                    "nextQuestion": 8
+                }
             ]
         },
         {
             "id": 8,
-            "question": "The Mysterious Villager\nYou notice an enigmatic villager who seems to hold secrets of the realm in the corner of the bar. Do you:",
+            "question": "You arrive to a village and a stranger shares their heartbreaking story about losing their village to the dragon’s fury.",
             "options": [
-                { "id": 1, "text": "Approach them, asking questions on how to defeat the dragon.", "eScore": 1, "nextQuestion": 9 },
-                { "id": 2, "text": "Observe quietly from your seat, take in everything they are saying.", "eScore": -1, "nextQuestion": 9 }
+                {
+                    "id": 1,
+                    "text": "Comfort them",
+                    "tScore": -1,
+                    "nextQuestion": 9
+                },
+                {
+                    "id": 2,
+                    "text": "Where is the dragon now?",
+                    "tScore": 1,
+                    "nextQuestion": 9
+                }
             ]
         },
         {
             "id": 9,
-            "question": "The Confrontation\nAs you approach the Dragon's Den, the dragon appears, fiery and fierce, challenging you to a confrontation. Do you:",
+            "question": "You walk into the village bar. You notice an enigmatic villager who claims to know everything siting in the corner.",
             "options": [
-                { "id": 1, "text": "Feel a sense of compassion for the dragon and consider finding a way to help it.", "tScore": -1, "nextQuestion": 10 },
-                { "id": 2, "text": "Decide to confront the dragon and fight to prove your strength.", "tScore": 1, "nextQuestion": 11 }
+                {
+                    "id": 1,
+                    "text": "Approach them, asking questions on how to defeat the dragon.",
+                    "eScore": 1,
+                    "nextQuestion": 10
+                },
+                {
+                    "id": 2,
+                    "text": "Observe from your seat, eavesdropping on their conversation.",
+                    "eScore": -1,
+                    "nextQuestion": 10
+                }
             ]
         },
         {
             "id": 10,
-            "question": "The Dragon's Choice\nThe dragon looks weary, and you have the chance to offer a truce. Do you:",
+            "question": "You finish preparing and leave the village. As you approach the Dragon's Den, the dragon appears to be injured. Do you:",
             "options": [
-                { "id": 1, "text": "Use your charm to persuade the dragon to join you as an ally.", "pScore": 1, "nextQuestion": 12 },
-                { "id": 2, "text": "Outline a formal agreement to ensure peace between you and the dragon.", "pScore": -1, "nextQuestion": 12 }
+                {
+                    "id": 1,
+                    "text": "Feel a sense of compassion for the dragon and consider finding a way to help it.",
+                    "tScore": -1,
+                    "nextQuestion": 11
+                },
+                {
+                    "id": 2,
+                    "text": "Decide to confront the dragon and fight to complete your quest.",
+                    "tScore": 1,
+                    "nextQuestion": 12
+                }
             ]
         },
         {
             "id": 11,
-            "question": "The Weapon Choice\nAs you prepare for battle, you can choose your weapon. Do you:",
+            "question": "The dragon hears you and opens its eyes, looking weary, and you have the chance to offer a truce. Do you:",
             "options": [
-                { "id": 1, "text": "Grab a glowing stick that radiates magic, believing it will give you an edge.", "pScore": 1, "nextQuestion": 12 },
-                { "id": 2, "text": "Use the rusty sword you've carried with you, trusting its familiarity.", "pScore": -1, "nextQuestion": 12 }
+                {
+                    "id": 1,
+                    "text": "Use your charm to persuade the dragon to join you as an ally.",
+                    "pScore": 1,
+                    "nextQuestion": 13
+                },
+                {
+                    "id": 2,
+                    "text": "Outline a formal agreement to ensure peace between you and the dragon.",
+                    "pScore": -1,
+                    "nextQuestion": 13
+                }
             ]
         },
         {
             "id": 12,
-            "question": "The Celebration\nAfter your encounter with the dragon, whether in battle or alliance, you are exhausted but decide to celebrate your victory. Do you:",
+            "question": "In the middle of the battle, the dragon disarms you and you fall to the ground next to some weapons. Do you:",
             "options": [
-                { "id": 1, "text": "Announce the news to the village and celebrate.", "eScore": 1, "nextQuestion": 13 },
-                { "id": 2, "text": "Walk into the nearest restaurant for a celebratory meal.", "eScore": -1, "nextQuestion": 13 }
+                {
+                    "id": 1,
+                    "text": "Grab a glowing stick that could be magical.",
+                    "pScore": 1,
+                    "nextQuestion": 13
+                },
+                {
+                    "id": 2,
+                    "text": "Grab the rusty sword you've carried with you.",
+                    "pScore": -1,
+                    "nextQuestion": 13
+                }
             ]
         },
         {
             "id": 13,
-            "question": "The Alarm of Reality\nAs your adventure nears its conclusion, you hear an alarm echoing in the distance, pulling you back to reality. Do you:",
+            "question": "After your encounter with the dragon, whether in battle or alliance, you are exhausted but decide to celebrate your victory.",
             "options": [
-                { "id": 1, "text": "Turn it off, choosing to stay in this magical world just a little longer.", "pScore": 1, "nextQuestion": 0 },
-                { "id": 2, "text": "Wake up from the dream, ready to embrace the lessons learned.", "pScore": -1, "nextQuestion": 0 }
+                {
+                    "id": 1,
+                    "text": "Let's celebrate!!",
+                    "eScore": 1,
+                    "nextQuestion": 14
+                },
+                {
+                    "id": 2,
+                    "text": "Thank god I survived",
+                    "eScore": -1,
+                    "nextQuestion": 14
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "question": "As your adventure nears its conclusion, you hear an alarm echoing in the distance, pulling you back to reality. Do you:",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Turn it off, let me stay in this magical world just a little longer.",
+                    "pScore": 1,
+                    "nextQuestion": 0
+                },
+                {
+                    "id": 2,
+                    "text": "Its time to wake up from the dream.",
+                    "pScore": -1,
+                    "nextQuestion": 0
+                }
             ]
         }
     ]
