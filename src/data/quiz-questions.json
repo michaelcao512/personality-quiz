@@ -12,8 +12,8 @@
             "id": 2,
             "question": "The Uncharted Map\nYou peek outside your compartment and see the only other fellow traveler in the train walking past your compartment. Do you:",
             "options": [
-                { "id": 1, "text": "Try to stop them and ask where the train is going.", "score": 1, "nextQuestion": 4 },
-                { "id": 2, "text": "Oh, they look busy, I won't bother them.", "score": 2, "nextQuestion": 5 }
+                { "id": 1, "text": "Try to stop them and ask where the train is going.", "score": 1, "nextQuestion": 3 },
+                { "id": 2, "text": "Oh, they look busy, I won't bother them.", "score": 2, "nextQuestion": 3 }
             ]
         },
         {
@@ -21,15 +21,15 @@
             "question": "The Enchanted Locket\nYou walk to a different cart and a mysterious traveler tries to sell you a locket that supposedly holds magical properties that he spent years crafting. Do you:",
             "options": [
                 { "id": 1, "text": "Try to refuse it and end up giving him money.", "score": 1, "nextQuestion": 4 },
-                { "id": 2, "text": "Examine it critically, questioning both the locket and his authenticity.", "score": 2, "nextQuestion": 5 }
+                { "id": 2, "text": "Examine it critically, questioning both the locket and his authenticity.", "score": 2, "nextQuestion": 4 }
             ]
         },
         {
             "id": 4,
             "question": "The Dining Car Decision\nIn the dining car, two meals are offered. Do you:",
             "options": [
-                { "id": 1, "text": "Choose the dish that looks like you have never seen before but smells delicious.", "score": 1, "nextQuestion": 6 },
-                { "id": 2, "text": "Select the dish that looks like something familiar but looks cold.", "score": 2, "nextQuestion": 0 }
+                { "id": 1, "text": "Choose the dish that looks like you have never seen before but smells delicious.", "score": 1, "nextQuestion": 5 },
+                { "id": 2, "text": "Select the dish that looks like something familiar but looks cold.", "score": 2, "nextQuestion": 5 }
             ]
         },
         {
@@ -37,7 +37,7 @@
             "question": "The Garden of Whispers\nThe train makes a sudden stop at a garden filled with exotic flowers, and everyone on the train is suddenly gone. Do you:",
             "options": [
                 { "id": 1, "text": "Listen to the whispers, intrigued by their hidden meanings.", "score": 1, "nextQuestion": 6 },
-                { "id": 2, "text": "Look for the passengers you just saw and where they went.", "score": 2, "nextQuestion": 0 }
+                { "id": 2, "text": "Look for the passengers you just saw and where they went.", "score": 2, "nextQuestion": 6 }
             ]
         },
         {
