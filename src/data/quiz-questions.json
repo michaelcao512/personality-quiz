@@ -38,15 +38,15 @@
             "question": "You peek outside your compartment and a fellow traveler in the train is walking past your compartment.",
             "options": [
                 {
-                    "id": 1,
-                    "text": "Excuse me? Where the train is headed",
-                    "eScore": 1,
-                    "nextQuestion": 4
-                },
-                {
                     "id": 2,
                     "text": "Oh, they look busy, I won't bother them",
                     "eScore": -1,
+                    "nextQuestion": 4
+                },
+                {
+                    "id": 1,
+                    "text": "Excuse me? Where the train is headed",
+                    "eScore": 1,
                     "nextQuestion": 4
                 }
             ]
@@ -76,15 +76,15 @@
             "question": "You make it to the dining car, two meals are offered. Do you:",
             "options": [
                 {
-                    "id": 1,
-                    "text": "Choose the dish that looks a little questionable, but everyone else is eating",
-                    "pScore": 1,
-                    "nextQuestion": 6
-                },
-                {
                     "id": 2,
                     "text": "Select the dish that looks familiar, but no one else is eating",
                     "pScore": -1,
+                    "nextQuestion": 6
+                },
+                {
+                    "id": 1,
+                    "text": "Choose the dish that looks a little questionable, but everyone else is eating",
+                    "pScore": 1,
                     "nextQuestion": 6
                 }
             ]
@@ -127,15 +127,15 @@
             "question": "Suddenly there is a fork in the pathway made of two different things. Do you:",
             "options": [
                 {
-                    "id": 1,
-                    "text": "Choose the stone pathway",
-                    "nScore": 1,
-                    "nextQuestion": 9
-                },
-                {
                     "id": 2,
                     "text": "Continue along the dirt path",
                     "nScore": -1,
+                    "nextQuestion": 9
+                },
+                {
+                    "id": 1,
+                    "text": "Choose the stone pathway",
+                    "nScore": 1,
                     "nextQuestion": 9
                 }
             ]
@@ -184,16 +184,16 @@
             "question": "You finish preparing and leave the village. As you approach the Dragon's Den, the dragon appears to be injured. Do you:",
             "options": [
                 {
-                    "id": 1,
-                    "text": "Feel a sense of compassion for the dragon and consider finding a way to help it.",
-                    "tScore": -1,
-                    "nextQuestion": 12
-                },
-                {
                     "id": 2,
                     "text": "Decide to confront the dragon and fight to complete your quest.",
                     "tScore": 1,
                     "nextQuestion": 13
+                },
+                {
+                    "id": 1,
+                    "text": "Feel a sense of compassion for the dragon and consider finding a way to help it.",
+                    "tScore": -1,
+                    "nextQuestion": 12
                 }
             ]
         },
