@@ -1,10 +1,21 @@
+"use client";
+
 import Quiz from "@/components/Quiz";
 import Link from "next/link";
-import {Button} from "@mui/material";
+import {Box, Button} from "@mui/material";
 
 export default function QuizPage(){
     return (
-        <>
+        <Box
+            sx={{
+                padding: 4,
+                backgroundColor: '#f9f9f9',
+                minHeight: '100vh',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+            }}
+        >
             <Quiz/>
 
             <Link href={"/"}>
@@ -15,6 +26,6 @@ export default function QuizPage(){
                     Home
                 </Button>
             </Link>
-        </>
+        </Box>
     )
 }
