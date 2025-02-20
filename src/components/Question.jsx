@@ -15,22 +15,25 @@ export default function Question({ question, setCurrentQuestionId, setResults })
     return (
         <Box sx={{ display: "flex", flexDirection: "column", gap: 2, padding: 2 }}>
             <Typography variant="h5" sx={{ textAlign: "center", mb: 2 }}>
+                {question.questionNum}
+            </Typography>
+            <Typography variant="h5" sx={{ textAlign: "center", mb: 2 }}>
                 {question.question}
             </Typography>
             {question.options.map((option) => (
                 <Button
                     key={option.id}
                     onClick={() => onSelect(option)}
-                    variant="outlined" 
+                    variant="outlined"
                     sx={{
-                        width: "100%", 
-                        color: "black", 
-                        backgroundColor: "white", 
-                        border: "1px solid black", 
+                        width: "100%",
+                        color: "black",
+                        backgroundColor: "white",
+                        border: "1px solid black",
                         borderRadius: 3,
                         "&:hover": {
-                            backgroundColor: "#f5f5f5", 
-                            border: "1px solid black", 
+                            backgroundColor: "#f5f5f5",
+                            border: "1px solid black",
                         },
                     }}
                 >
