@@ -9,15 +9,16 @@ export default function Home() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                height: "100vh",
-                backgroundColor: "#f5f5f5"
+                height: "95vh",
+                // backgroundColor: "#f5f5f5"
+                backgroundColor: "#ffffff",
             }}
         >
             {/* Mobile Screen Container */}
             <Box
                 sx={{
                     width: "375px",
-                    height: "800px",
+                    height: "700px",
                     border: "1px solid #ccc",
                     borderRadius: "16px",
                     overflow: "hidden",

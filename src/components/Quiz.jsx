@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Box } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import quizQuestions from "@/data/quiz-questions.json";
 import Question from "@/components/Question";
 import Results from "@/components/Results";
@@ -33,7 +33,7 @@ export default function Quiz() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                height: "100vh",
+                height: "90vh",
                 // backgroundColor: "#f5f5f5"
             }}
         >
@@ -41,18 +41,19 @@ export default function Quiz() {
             <Box
                 sx={{
                     width: "375px",
-                    height: "800px",
-                    border: "1px solid #ccc",
-                    borderRadius: "16px",
+                    height: "700px",
+                    // border: "1px solid #ccc",
+                    // borderRadius: "16px",
                     overflow: "hidden",
-                    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                    backgroundColor: "#fff",
+                    // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                    // backgroundColor: "#fff",
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",
                     padding: 3,
                 }}
             >
+
                 {!currentQuestionData ? (
                     <Results results={results} />
                 ) : (
