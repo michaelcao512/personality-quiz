@@ -35,11 +35,11 @@
         {
             "id": 3,
             "questionNum": "3/14",
-            "question": "You peek outside your compartment and a fellow traveler in the train is walking past your compartment.",
+            "question": "You peek outside your compartment and a fellow traveler in the train is walking by.",
             "options": [
                 {
                     "id": 2,
-                    "text": "Oh, they look busy, I won't bother them",
+                    "text": "Oh, they look busy, I don't want to bother them",
                     "eScore": -1,
                     "nextQuestion": 4
                 },
@@ -54,7 +54,7 @@
         {
             "id": 4,
             "questionNum": "4/14",
-            "question": "You walk to a different train cart and a mysterious traveler tries to sell you a locket that supposedly holds magical properties that he spent years crafting.",
+            "question": "You walk to a different train car and a mysterious traveler tries to sell you a locket that supposedly holds magical properties that he spent years crafting.",
             "options": [
                 {
                     "id": 1,
@@ -96,7 +96,7 @@
             "options": [
                 {
                     "id": 1,
-                    "text": "What are the whispers saying??",
+                    "text": "What are the flowers whispering?",
                     "nScore": 1,
                     "nextQuestion": 7
                 },
@@ -143,7 +143,7 @@
         {
             "id": 9,
             "questionNum": "9/14",
-            "question": "You arrive to a village and a stranger shares their heartbreaking story about losing their village to the dragon’s fury.",
+            "question": "You arrive at a village and a stranger shares their heartbreaking story about losing their home to the dragon’s fury.",
             "options": [
                 {
                     "id": 1,
@@ -210,7 +210,7 @@
                 },
                 {
                     "id": 2,
-                    "text": "Outline a formal agreement to ensure peace between you and the dragon.",
+                    "text": "Make the dragon an offer to leave the village in peace.",
                     "pScore": -1,
                     "nextQuestion": 14
                 }
@@ -229,7 +229,7 @@
                 },
                 {
                     "id": 2,
-                    "text": "Grab the rusty sword you've carried with you.",
+                    "text": "Pick up the rusty sword you just dropped.",
                     "pScore": -1,
                     "nextQuestion": 14
                 }
@@ -238,7 +238,7 @@
         {
             "id": 14,
             "questionNum": "13/14",
-            "question": "After your encounter with the dragon, whether in battle or alliance, you are exhausted but decide to celebrate your victory.",
+            "question": "It's finally over, my quest is complete.",
             "options": [
                 {
                     "id": 1,
@@ -267,7 +267,7 @@
                 },
                 {
                     "id": 2,
-                    "text": "It's time to wake up from the dream.",
+                    "text": "It's time to wake up from this dream.",
                     "pScore": -1,
                     "nextQuestion": 0
                 }
